@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  font-size: 30px;
+}
+
+.itemContainer{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+.logoContainer{
+  padding-left: 1rem
+}
+
+.headerItem{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-weight: 500;
+}
