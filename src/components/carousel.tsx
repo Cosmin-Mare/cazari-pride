@@ -12,15 +12,15 @@ export default function Carousel() {
       <CarouselItem num={4} link="#" />,
       <CarouselItem num={5} link="#" />
     ])
-    setInterval(() => {
-      carouselItems.forEach((item, index) => {
-        if(item.props.active){
-          item.props.active = false;
-          if(index == carouselItems.length-1)
-            carouselItems[0].props.active = true;
-          else
-            carouselItems[index+1].props.active = true
-        }
+   setInterval(() => {
+   carouselItems.forEach((item, index) => {
+      //  if(item.props.active){
+      //    item.props.active = false;
+      //    if(index == carouselItems.length-1)
+      //     carouselItems[0].props.active = true;
+      //    else
+      //       carouselItems[index+1].props.active = true
+      //  }
       })
     }, 2000)
   })
