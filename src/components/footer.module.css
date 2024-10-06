@@ -1,6 +1,26 @@
-.logoContainer{
-    padding-left: 1rem
+.footer{
+height: 200px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: brown;
+}
 
+.logoContainerFooter{
+  display: flex;
+  align-items: flex-end;
+  padding-left: 1.5rem;
+  }
 
-    
+  .photoContainerFooter{
+    height: 47.8px;
+    width: 44.3px;
+    display: flex;
+  
+  }
+  
+  .photoContainerFooter img {
+    width: 100%; 
+    height: 100%; 
   }

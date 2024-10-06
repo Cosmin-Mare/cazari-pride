@@ -4,9 +4,9 @@ import styles from './footer.module.css';
 
 export default function Home() {
     return (
-        <div>
-            <div className={styles.logoContainer}>
-                <img src="logo.png" alt="logo" className={styles.logo} />
+        <div className={styles.footer}>
+            <div className={styles.logoContainerFooter}>
+                <img src="logo.jpeg" alt="logo" className={styles.photoContainerFooter} />
             </div>
             <h1>Contact</h1>
             <p>t is a long established fact that</p>
