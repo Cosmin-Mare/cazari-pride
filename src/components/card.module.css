@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.cardsContainer{
+    display: grid;
+    grid-template-columns: 40px 375px 25px 375px 25px 375px 25px 375px 40px;
+    grid-template-rows: 20px 80px 10px ;
+
+
+
+}
