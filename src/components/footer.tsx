@@ -8,11 +8,27 @@ export default function Home() {
             <div className={styles.logoContainerFooter}>
                 <img src="logo.jpeg" alt="logo" className={styles.photoContainerFooter} />
             </div>
-            <div className={styles.contactContainer}>
-            <a className={styles.contactTitle}>Contact</a>
-            <p className={styles.contactItem}>About</p>
-            <p className={styles.contactItem}>Shahes</p>
-            <p className={styles.contactItem}>Fgehsjc</p>
+            <div className={styles.footerItemContainer}>
+            <p className={styles.footerTitle}>Contact</p>
+            <p className={styles.footerItem}>About</p>
+            <p className={styles.footerItem}>Shahes</p>
+            <p className={styles.footerItem}>Fgehsjc</p>
+            <a href="mailto:" className={styles.contactItem}>contact@cazaripraid.ro</a>
+            </div>
+            
+            <div className={styles.footerItemContainer}>
+            <p className={styles.footerTitle}>Contact</p>
+            <p className={styles.footerItem}>About</p>
+            <p className={styles.footerItem}>Shahes</p>
+            <p className={styles.footerItem}>Fgehsjc</p>
+            <a href="mailto:" className={styles.contactItem}>contact@cazaripraid.ro</a>
+            </div>
+
+            <div className={styles.footerItemContainer}>
+            <p className={styles.footerTitle}>Contact</p>
+            <p className={styles.footerItem}>About</p>
+            <p className={styles.footerItem}>Shahes</p>
+            <p className={styles.footerItem}>Fgehsjc</p>
             <a href="mailto:" className={styles.contactItem}>contact@cazaripraid.ro</a>
             </div>
 
