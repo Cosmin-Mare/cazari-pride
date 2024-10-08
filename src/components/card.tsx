@@ -7,7 +7,7 @@ export default function Home() {
         <div className={styles.allCardsContainer}>
             <div className={styles.cardContainer}>
                 <div className={styles.photoCard}>
-                    <img src='/carousel/carousel-1.png' />
+                    <img  />
                 </div>
              <div className={styles.itemContainer}>
                 <h2> </h2>
