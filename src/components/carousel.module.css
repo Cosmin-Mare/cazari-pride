@@ -1,18 +1,58 @@
-.carousel {
+.carousel{
   width: 100%;
-  height: 30%;
+  height: 70vh;
   position: relative;
 }
 
 .carouselContainer {
   width: 100%;
   height: 100%;
+  position: absolute;
+  top: 0;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  position: relative;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
+  column-gap: 2vw;
+}
+.carousel button{
+  all:unset
 }
 
-.carouselItem{
-    display: none;
+.carousel .leftArrow{
+  cursor: grab;
+  z-index: 1000;
+  position: absolute;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 5%;
+  background-color: rgba(0, 0, 0, 0.3);
 }
+
+.carousel .rightArrow{
+  cursor: grab;
+  z-index: 1000;
+  position: absolute;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 5%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.carousel .rightArrow:active, .carousel .rightArrow:active{
+  cursor: grabbing;
+}
+
+.leftArrow p, .rightArrow p{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+
