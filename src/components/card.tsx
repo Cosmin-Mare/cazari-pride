@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div className={styles.allCardsContainer}>
             <div className={styles.cardContainer}>
-                <div className={styles.photoCard}>
+                <div className={styles.photoCardContainer}>
                     <img  />
                 </div>
              <div className={styles.itemContainer}>

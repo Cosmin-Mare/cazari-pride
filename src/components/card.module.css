@@ -20,9 +20,17 @@
 
 
 
-.photoCard{ 
-    height:250px;
-    width: 280px;
+.photoCardContainer{ 
+    display: block;
+    height:50%;
+    width: 85%;
     background-color: white;
+}
 
+
+.descriptionCardContainer{ 
+    background-color: red;
+    display: block;
+    height: 30% ;
+    width: 30%;
 }
