@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.allCardsContainer{
+    display: grid;
+    grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+  grid-template-rows: 400px 400px 400px; 
+  column-gap: 3%;
+  row-gap: 40px;
+}    
+
+.cardContainer{ 
+    display: flex;
+   height: 400px;
+   width: 323.77px;
+   background-color: black;
+   justify-content: center;
+   padding-top: 20px;
+}
+
+
+
+.photoCardContainer{ 
+    display: block;
+    height:50%;
+    width: 85%;
+    background-color: white;
+}
+
+
+.descriptionCardContainer{ 
+    background-color: red;
+    display: block;
+    height: 30% ;
+    width: 30%;
+}

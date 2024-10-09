@@ -4,13 +4,34 @@ import styles from './footer.module.css';
 
 export default function Home() {
     return (
-        <div>
-            <div className={styles.logoContainer}>
-                <img src="logo.png" alt="logo" className={styles.logo} />
+        <div className={styles.footer}>
+            <div className={styles.logoContainerFooter}>
+                <img src="logo.jpeg" alt="logo" className={styles.photoContainerFooter} />
             </div>
-            <h1>Contact</h1>
-            <p>t is a long established fact that</p>
-            <p><a href="mailto:">contact@cazaripraid.ro</a></p>
+            <div className={styles.footerItemContainer}>
+            <p className={styles.footerTitle}>Contact</p>
+            <p className={styles.footerItem}>About</p>
+            <p className={styles.footerItem}>Shahes</p>
+            <p className={styles.footerItem}>Fgehsjc</p>
+            <a href="mailto:" className={styles.contactItem}>contact@cazaripraid.ro</a>
+            </div>
+            
+            <div className={styles.footerItemContainer}>
+            <p className={styles.footerTitle}>Contact</p>
+            <p className={styles.footerItem}>About</p>
+            <p className={styles.footerItem}>Shahes</p>
+            <p className={styles.footerItem}>Fgehsjc</p>
+            <a href="mailto:" className={styles.contactItem}>contact@cazaripraid.ro</a>
+            </div>
+
+            <div className={styles.footerItemContainer}>
+            <p className={styles.footerTitle}>Contact</p>
+            <p className={styles.footerItem}>About</p>
+            <p className={styles.footerItem}>Shahes</p>
+            <p className={styles.footerItem}>Fgehsjc</p>
+            <a href="mailto:" className={styles.contactItem}>contact@cazaripraid.ro</a>
+            </div>
+
         </div>
     );
 }
