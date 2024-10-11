@@ -52,4 +52,11 @@ background-color: white;
     padding: 2.5px;
   }
 
+  .bandFooter{
+    background: #a40080;
+    width: 100%;
+    height: 20px;
+    display: block;
+  }
+
   
