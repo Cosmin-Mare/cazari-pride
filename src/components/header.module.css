@@ -101,9 +101,20 @@
   }
 }
 
-@media (min-width: 768px){
+@media (min-width:601px ){
+.itemContainer{
+ 
+}
 
-
-
-
+}
+@media(max-width:600px){
+  
+  .itemContainer{
+    display: none;
+  }
+  
+  .header{
+    justify-content: center;
+    align-items: center;
+  }
 }
