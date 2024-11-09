@@ -2,29 +2,31 @@
 
 
 .allCardsContainer{
-    display: grid;
-    grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
-  grid-template-rows: 400px 400px 400px; 
-  column-gap: 3%;
-  row-gap: 40px;
-  padding-top: 50px;
+ max-width:1090px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding:10px;
+ flex-wrap: wrap;
+ min-height: 100vh;       
+    margin: 0 auto;  
 }    
 
 .cardContainer{ 
+    width: calc(25% - 15px);
+    height: 400px;
     display: flex;
     flex-direction: column;
-   height: 400px;
-   width: 323.77px;
-   background-color: white;
-   justify-content: center  ;
-   border: 1px black solid;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
-
-
 .photoCardContainer{ 
-
     display: inline-block;
+    width: 100%;
     padding: 10px;
     height:50%;
     background-color: black;
@@ -32,10 +34,11 @@
 
 
 .descriptionCardContainer{ 
-    background-color: whites;
+    background-color: white;
     flex-shrink: 0;
     bottom: 0;
     padding-right: 10px;
+    width: 100%;
 }
 
 .descriptionCardContainer h2{
@@ -52,8 +55,8 @@
 
 
 
-@media (max-width:851px){
-    .allCardsContainer{
-        grid-auto-flow: column;
+@media (max-width:1045px){
+    .cardContainer{
+        width: calc(50% - 10px);
     }
 }
